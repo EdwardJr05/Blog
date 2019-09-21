@@ -1,0 +1,81 @@
+body{
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin:0;
+  padding: 0;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+
+}
+
+#navbar{
+  background-color: silver;
+  color: white;
+}
+
+#navbar ul{
+  padding:0;
+  list-style: none;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right:15px;
+}
+
+#main-header{
+  background-image:url('../images/spurs 2.jpg');
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position:left;
+  padding: 20px 0;
+
+}
+
+#main-footer{
+  text-align: center;
+  font-size: 10px;
+
+}
+
+#main-blog1{
+padding: 0;
+margin: 0;
+box-sizing: inherit;
+display: block;
+border-radius: 5px;
+border-style: solid;
+border-color: silver;
+color:black;
+}
+
+.button{
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align:center;
+  display: inline-block;
+  font-size: 16px;
+
+}
