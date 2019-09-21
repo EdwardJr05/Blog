@@ -1,0 +1,30 @@
+{
+  "name": "sports",
+  "version": "1.0.0",
+  "description": "Sports Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint": "stylelint '**/*.css';"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardJr05/Blog.git"
+  },
+  "author": "Edward Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwardJr05/Blog/issues"
+  },
+  "homepage": "https://github.com/EdwardJr05/Blog#readme",
+  "devDependencies": {
+    "husky": "^3.0.5",
+    "stylelint": "^11.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "husky": {
+"hooks": {
+  "pre-commit": "npm run stylelint"
+  }
+}
+}
