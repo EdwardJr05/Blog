@@ -1,5 +1,5 @@
 body{
-  background-color: white;
+  background-color: #ffffff;
   color: black;
   font-size: 16px;
   line-height: 1.6em;
@@ -38,18 +38,20 @@ body{
   font-size: 18px;
   font-family: sans-serif;
 
-
-
 }
 
 #navbar{
-  background-color: silver;
-  color: white;
+  background-color: #ffffff;
+  color: #000000;
+
 }
 
 #navbar ul{
   padding:0;
   list-style: none;
+  text-align: right;
+  color: #000000;
+
 }
 
 #navbar li{
@@ -57,9 +59,9 @@ body{
 }
 
 #navbar a{
-  color: #fff;
+  color: ;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 24px;
   padding-right:15px;
 }
 
@@ -76,16 +78,17 @@ body{
   display: block;
   margin: 0 auto;
   position: relative;
-  top: 25px;
+  top: 45px;
 
 }
 
 .Top-Card{
-  background-size: cover;
+  background-size: 70%;
   background-position: center center;
   background-repeat: no-repeat;
   min-height: 100px;
   display: block;
+  background-color: #000000;
 
 }
 
@@ -103,6 +106,10 @@ body{
   padding-left: 0px;
   text-align: center;
 
+}
+
+.Top-Card1{
+  background-color: black;
 }
 
 .Blog1{
