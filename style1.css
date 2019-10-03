@@ -135,6 +135,17 @@ body{
   text-align: center;
 
 }
+.Top-Card2{
+  background-size: 80%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  min-height: 150px;
+  min-width: 200px;
+  background-color: #000000;
+
+}
+
 
 .Blog2{
   text-align: center;
