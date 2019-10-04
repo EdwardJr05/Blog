@@ -40,34 +40,9 @@ body{
 
 }
 
-#navbar{
-  background-color: #ffffff;
-  color: #000000;
-
-}
-
-#navbar ul{
-  padding:0;
-  list-style: none;
-  text-align: right;
-  color: #000000;
-
-}
-
-#navbar li{
-  display: inline;
-}
-
-#navbar a{
-  color: ;
-  text-decoration: none;
-  font-size: 24px;
-  padding-right:15px;
-}
-
 #main-footer{
   text-align: center;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .profile-pic{
@@ -192,6 +167,96 @@ body{
   padding-left: 0px;
 
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #000;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #000;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media only screen and (min-width:601px) and (max-width:992px) {
+  /* tablet size rules */
+  body{
+    background-color: #ffffff;
+  }
+}
+@media only screen and (min-width:50px) and (max-width:600px) {
+  /* mobile size rules */
+  .Sports{
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+    .AboutMe{
+      grid-area: initial;
+    }
+    .Blog1{
+      grid-area: initial;
+    }
+    .Blog2{
+      grid-area: initial;
+    }
+    .Blog3{
+      grid-area: initial;
+    }
+    .Blog4{
+      grid-area: initial;
+    }
+}
+
 
 /* * { background-color: rgba(255,0,0,.2); }
 * * { background-color: rgba(0,255,0,.2); }

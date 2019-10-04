@@ -11,15 +11,25 @@
 
     <!-- import the webpage's javascript file -->
     <script src="csscript.js" defer></script>
-    <nav id="navbar">
-        <div class="container">
-          <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Blog Posts</a></li>
-              <li><a href="#main-footer">Contact</a></li>
-          </ul>
-        </div>
-    </nav>
+
+    <!-- hover drop menu-->
+    <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="#main-footer">Contact</a>
+    <div class="dropdown">
+      <button class="dropbtn">Blog
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="story1.html">Story 1</a>
+        <a href="story2.html">Story 2</a>
+        <a href="story3.html">Story 3</a>
+        <a href="story4.html">Story 4</a>
+      </div>
+    </div>
+  </div>
+
+
   </head>
   <body>
       <header id="Main-Header">
@@ -30,7 +40,7 @@
       </header>
       <!-- Blog #1 -->
       <div class="Blog1" id= "Blog1">
-       <div class="Top-Card1" style="background-image: url()"></div>
+       <div class="Top-Card1" style="background-image: url(team1.jpeg)"></div>
          <div class="Bottom-Card">
            <h3 class="Card-Header">Spurs Open Training Camp</h3>
            <p>

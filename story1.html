@@ -11,15 +11,24 @@
 
     <!-- import the webpage's javascript file -->
     <script src="csscript.js" defer></script>
-    <nav id="navbar">
-        <div class="container">
-          <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Blog Posts</a></li>
-              <li><a href="#main-footer">Contact</a></li>
-          </ul>
-        </div>
-    </nav>
+
+    <!-- hover drop menu-->
+    <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="#main-footer">Contact</a>
+    <div class="dropdown">
+      <button class="dropbtn">Blog
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="story1.html">Story 1</a>
+        <a href="story2.html">Story 2</a>
+        <a href="story3.html">Story 3</a>
+        <a href="story4.html">Story 4</a>
+      </div>
+    </div>
+  </div>
+
   </head>
   <body>
       <header id="Main-Header">
