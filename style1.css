@@ -20,6 +20,49 @@ body{
   grid-column-gap: 35px;
   grid-row-gap: 15px;
 }
+
+.Contact{
+  display: grid;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100px;
+  min-width: 100px;
+  background-color: #000000;
+  color: #fff;
+  box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  text-align: center;
+  font-size: 26px;
+
+}
+
+.Contact-Header{
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  color: #000000;
+  text-align: center;
+  font-size: 28px;
+  margin: auto;
+  height: 150px;
+  padding: 20px 0;
+
+}
+
+.Bottom-Card1{
+  color: black;
+  background-color: white;
+  box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-left: 10px;
+  text-align: justify;
+
+}
+
 .Main-Header{
   background-color: black;
   color: white;
@@ -232,11 +275,12 @@ body{
 
 .ReadMore{
   border-style: ridge;
+  border-width: thin;
   background-color: #fff;
   color: #000;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 2px 2px;
-  border-radius: 5px;
+  border-radius: 2px;
   font-size: 8px;
 
 }
@@ -276,6 +320,9 @@ a[href="story1.html"]{
       grid-area: initial;
     }
     .Blog4{
+      grid-area: initial;
+    }
+    .Contact-Header{
       grid-area: initial;
     }
 }
